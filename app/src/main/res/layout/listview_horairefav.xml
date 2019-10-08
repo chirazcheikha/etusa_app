@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ListView
+        android:id="@+id/horairefav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView10"
+        android:layout_margin="14dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textStation"
+        android:layout_alignStart="@+id/textStation"
+        android:layout_below="@+id/textView133"
+        android:layout_marginTop="18dp"
+        android:fontFamily="sans-serif"
+        android:text="Les horaires des départs des bus : "
+        android:textColor="#0492d0"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textStation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="22dp"
+        android:text="STATION "
+        android:textColor="#0492d0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Station1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textStation"
+        android:layout_alignBottom="@+id/textStation"
+        android:layout_toEndOf="@+id/textStation"
+        android:layout_toRightOf="@+id/textStation"
+        android:background="#0492d0"
+        android:text="TextView"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@+id/textView14"
+        android:layout_toRightOf="@+id/textView14"
+        android:background="#0492d0"
+        android:text="direction"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textStation"
+        android:layout_alignStart="@+id/textStation"
+        android:layout_below="@+id/textStation"
+        android:layout_marginTop="3dp"
+        android:text="en direction de :"
+        android:textAllCaps="true"
+        android:textColor="#0492d0"
+        android:textSize="20sp" />
+</RelativeLayout>

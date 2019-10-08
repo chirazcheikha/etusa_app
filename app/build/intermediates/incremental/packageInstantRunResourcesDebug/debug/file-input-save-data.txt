@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sat Sep 22 03:58:09 CEST 2018
+1.base=C\:\\Users\\DELL\\Desktop\\etusapp\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=crashlytics-build.properties
+0.set=ASSET
+0.base=C\:\\Users\\DELL\\Desktop\\etusapp\\app\\build\\intermediates\\assets\\debug
+1.path=etusa2.sqlite

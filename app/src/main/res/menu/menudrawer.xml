@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/activity_main_acceuil"
+            android:icon="@drawable/home"
+        android:title="Acceuil" />
+        <item
+            android:id="@+id/activity_main_drawer_fav"
+            android:icon="@drawable/star"
+            android:title="Mes stations favorites" />
+        <item
+            android:id="@+id/activity_main_drawer_lignes"
+            android:icon="@drawable/ligneicon"
+            android:title="Consulter les lignes" />
+        <item
+            android:id="@+id/activity_main_drawer_horaires"
+            android:icon="@drawable/horloge"
+            android:title="Consulter les horaires" />
+        <item
+            android:id="@+id/activity_main_abo"
+            android:icon="@drawable/ticket"
+            android:title="Nos abonnements" />
+        <item
+            android:id="@+id/activity_main_contacter"
+            android:icon="@drawable/letter"
+            android:title="Contactez nous" />
+
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- fav -->
+    <item android:id="@+id/action_isfav"
+        android:icon="@drawable/star"
+        android:title="déja favoris"
+        android:checkable="true"
+        app:showAsAction="always"
+        />
+
+
+</menu>

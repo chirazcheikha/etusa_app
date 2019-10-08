@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "788849338918",
+    "firebase_url": "https://sign-in-55efc.firebaseio.com",
+    "project_id": "sign-in-55efc",
+    "storage_bucket": "sign-in-55efc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788849338918:android:d6311f2b948eba7e",
+        "android_client_info": {
+          "package_name": "etusapp.dell.com.etusa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788849338918-rbrcr4g9nb38v21i3ia36d9vl5gqfmjh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "etusapp.dell.com.etusa",
+            "certificate_hash": "065406b6225f4d1cb1d67550b6970fe3bde201bf"
+          }
+        },
+        {
+          "client_id": "788849338918-7lp659vh91mum0tdc41cgal58d9mo7i7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "788849338918-7lp659vh91mum0tdc41cgal58d9mo7i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIurknb8XXzfRcKG_zmHD3OkArLYWijAI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788849338918-7lp659vh91mum0tdc41cgal58d9mo7i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
